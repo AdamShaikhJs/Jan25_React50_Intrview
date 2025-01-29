@@ -16,6 +16,12 @@ import Dropdown from './12Dropdown';
 import TcsL1Task from './13TcsL1Task';
 import TodoChek from './14TodoCheck';
 import FilterMethodUseCase from './15FilterMethod';
+import InterviewTask from './16interviewTask';
+import DebounceSearchComponent from './17DebouncingInput';
+import DebounceSerachuseEffect from './18DebounceInputEffect';
+import ThrottleScrollComponent from './19ThrottleScroll';
+import Stopwatch from './20StopWatch';
+import CountTask from './21CountAlertInterviewTask';
 
 function App() {
   return (
@@ -36,6 +42,12 @@ function App() {
      <TcsL1Task/>
      <TodoChek/>
      <FilterMethodUseCase/>
+     <InterviewTask/>
+     <DebounceSearchComponent/>
+     <DebounceSerachuseEffect/>
+     <ThrottleScrollComponent/>
+     <Stopwatch/>
+     <CountTask/>
      {/* <Dropdown/> */}
     </div>
   );

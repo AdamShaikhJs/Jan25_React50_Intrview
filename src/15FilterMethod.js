@@ -13,8 +13,8 @@ const FilterMethodUseCase = () => {
   const filteredItems = items.filter(item => item.type === filterType);
 
   return (
-    <div>
-      <h1>Filtered Items</h1>
+    <main>
+      <h3>Filtered Items</h3>
       <button onClick={() => setFilterType("Fruit")}>Show Fruits</button>
       <button onClick={() => setFilterType("Vegetable")}>Show Vegetables</button>
       <ul>
@@ -22,7 +22,7 @@ const FilterMethodUseCase = () => {
           <li key={item.id}>{item.name}</li>
         ))}
       </ul>
-    </div>
+    </main>
   );
 };
 

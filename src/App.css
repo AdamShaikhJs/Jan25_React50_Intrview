@@ -61,7 +61,7 @@ main {
   border-radius: 10px;
   padding: 2rem;
   text-align: center;
-  max-width: 400px;
+  max-width: 480px;
   margin: 10px auto;
 }
 .img-container {
@@ -196,14 +196,56 @@ code {
 
 button {
   padding: 5px 10px;
-  background-color: #dc3545;
+  background-color: #430cf7;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin: 4px ;
 }
 
 button:hover {
   background-color: #c82333;
 }
 
+
+stopwatch-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.stopwatch-time {
+  font-size: 20px;
+  font-family: monospace;
+}
+
+.stopwatch-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.start-stop-button, .reset-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+}
+
+.start-stop-button {
+  background-color: #007bff;
+}
+
+.start-stop-button:hover {
+  background-color: #0056b3;
+}
+
+.reset-button {
+  background-color: #dc3545;
+}
+
+.reset-button:hover {
+  background-color: #a71d2a;
+}
