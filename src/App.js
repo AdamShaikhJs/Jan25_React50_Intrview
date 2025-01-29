@@ -47,7 +47,7 @@ function App() {
      <DebounceSerachuseEffect/>
      <ThrottleScrollComponent/>
      <Stopwatch/>
-     <CountTask/>
+     <CountTask/>                         {/* Count alert Task */}
      {/* <Dropdown/> */}
     </div>
   );
